@@ -25,7 +25,7 @@
 1. **克隆仓库**
 
    ```bash
-   git clone <repository_url>
+   git clone git@github.com:Aishsong/ai_knowledge_base_qa_system.git
    cd <repository_directory>
    ```
 
