@@ -64,8 +64,6 @@
    OPENAI_API_KEY="hk-your-key-here"
    ```
 
-   注意：该项目默认使用的 API 基本地址为 `https://api.openai-hk.com/v1`。（此为代理API，如果需要使用其他API地址，请在 `main.py` 中修改 `openai.api_base` 和 `openai.base_url` 以及 `.env` 文件中的 `OPENAI_BASE_URL` 的值）
-
 5. **准备知识库文档**
 
    将你的文本文档放入项目根目录下的 `data/` 文件夹中。仓库中已提供一个示例文件 `sample.txt`，内容为企业内部文档示例。

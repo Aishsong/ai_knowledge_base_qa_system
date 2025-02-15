@@ -6,8 +6,8 @@ from langchain.prompts import PromptTemplate
 load_dotenv()
 
 # 设置自定义的 API 基本地址
-openai.api_base = "https://api.openai-hk.com/v1"
-openai.base_url = "https://api.openai-hk.com/v1"
+openai.api_base = "https://api.openai.com/v1"
+openai.base_url = "https://api.openai.com/v1"
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 # 检查是否设置了 OPENAI_API_KEY 环境变量
